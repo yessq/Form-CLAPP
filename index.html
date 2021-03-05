@@ -1,0 +1,50 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+<link href="form.css" rel="stylesheet" type="text/css">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+<input type=hidden name="oid" value="00D4x0000032fpi">
+<input type=hidden name="retURL" value="https://cladd.com.ar/contacto/">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="francisco.harte@cloudgaia.com">                                  -->
+<!--  ----------------------------------------------------------------------  -->
+
+<label for="first_name">Nombre</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" Required /><br>
+
+<label for="last_name">Apellido</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" Required /><br>
+
+<label for="company">Empresa</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+
+<label for="email">Correo electrónico</label><input  id="email" maxlength="80" name="email" size="20" type="text" Required /><br>
+
+<label for="phone">Teléfono</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" Required /><br>
+
+Ubicación:<input  id="00N4x00000PpWqg" maxlength="250" name="00N4x00000PpWqg" size="20" type="text" /><br>
+
+Producto:<select  id="00N4x00000PpXnu" multiple="multiple" name="00N4x00000PpXnu" title="Producto" required="required"><option value="Hilo">Hilo</option>
+<option value="Tejido Plano">Tejido Plano</option>
+<option value="Tejido de punto">Tejido de punto</option>
+</select><br>
+
+Cantidad de Kilos:<input  id="00N4x00000PpWqd" name="00N4x00000PpWqd" size="20" type="text" /><br>
+
+Mensaje:<input  id="00N4x00000PpWqe" maxlength="255" name="00N4x00000PpWqe" size="20" type="text" /><br>
+
+<input type="submit" name="submit">
+
+</form>
